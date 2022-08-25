@@ -5,3 +5,4 @@
 * Learn how to use CSS and using inline or and outside css file.
 * Understoond using Class and ID using HTML and how to modify and customize in a external CSS.
 * Worked with flexboxes and grids to remake a webpage.
+* Learn how to make a responsive webpage.

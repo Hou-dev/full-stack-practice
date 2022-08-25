@@ -1,0 +1,32 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#nav{
+    flex-basis: 100%;
+    padding: 40px;
+    background-color: antiquewhite;
+}
+
+#sidebar{
+    flex-basis: 20%;
+    height: 400px;
+    background-color: beige;
+}
+
+#content{
+    flex-basis: 80%;
+    background-color:rgb(220, 245, 223);
+}
+
+#blog{
+    flex-basis: 80%;
+    background-color: burlywood;
+    max-width: 80%;
+    height: 800px;
+    align-self: center;
+    margin: auto;
+}
