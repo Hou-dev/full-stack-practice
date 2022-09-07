@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Working with fetch API</h1>
+    <button id="myButton">Click Me</button>
+    <div id="name"></div>
+    <div id="height"></div>
+    <div id="gender"></div>
+    <div id="mass"></div>
+    <script>
+      let num;
+      const newName = document.getElementById("name");
+      const newHeight = document.getElementById("height");
+      const newGender = document.getElementById("gender");
+      const newMass = document.getElementById("mass");
+      document
+        .getElementById("myButton")
+        .addEventListener("click", function () {
+          num = Math.ceil(Math.random() * 100);
+          fetch(`https://swapi.dev/api/people/${num}/`)
+            .then((response) => response.json())
+            .then((data) => {
+              newName.innerHTML = data["name"];
+              newHeight.innerHTML = data["height"];
+              newGender.innerHTML = data["gender"];
+              newMass.innerHTML = data["mass"];
+            });
+        });
+    </script>
+  </body>
+</html>
