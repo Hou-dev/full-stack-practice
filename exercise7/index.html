@@ -26,7 +26,7 @@
           fetch(`https://swapi.dev/api/people/${num}/`)
             .then((response) => response.json())
             .then((data) => {
-              newName.innerHTML = data["name"];
+              newName.innerHTML = `Name: ${data["name"]}`;
               newHeight.innerHTML = data["height"];
               newGender.innerHTML = data["gender"];
               newMass.innerHTML = data["mass"];
