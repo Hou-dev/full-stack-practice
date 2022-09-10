@@ -8,3 +8,4 @@
 - Worked with flexboxes and grids to remake a webpage.
 - Learn how to make a responsive webpage.
 - Used fetch api and replaced the innerhtml text to display on html page
+- Used JQuery to manipulate JS and fetch data from URL.
