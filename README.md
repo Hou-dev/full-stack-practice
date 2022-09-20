@@ -9,3 +9,4 @@
 - Learn how to make a responsive webpage.
 - Used fetch api and replaced the innerhtml text to display on html page
 - Used JQuery to manipulate JS and fetch data from URL.
+- Worked with Readt.js to fetch url, get data, and display information on webpage
