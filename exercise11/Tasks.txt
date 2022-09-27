@@ -1,4 +1,0 @@
-There is no 404 page
-Sometimes a search result doesn't have an image
-There is no handler if there are no search results
-The search button in the navigation doesn't work

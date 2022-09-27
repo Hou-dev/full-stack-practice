@@ -1,3 +1,4 @@
+import React from "react";
 import { useHistory, Link } from "react-router-dom";
 
 const Navbar = ({ searchText, setSearchText }) => {
@@ -9,7 +10,7 @@ const Navbar = ({ searchText, setSearchText }) => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg bg-light">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
           Movie Browser
@@ -44,7 +45,7 @@ const Navbar = ({ searchText, setSearchText }) => {
                 tabIndex="-1"
                 aria-disabled="true"
               >
-                Coming soon
+                Disabled
               </Link>
             </li>
           </ul>
