@@ -1,16 +1,20 @@
-import React from "react";
+// import { useState } from "react";
 import { useHistory, Link } from "react-router-dom";
 
 const Navbar = ({ searchText, setSearchText }) => {
   const history = useHistory();
-
   const updateSearchText = (e) => {
     history.push("/search");
     setSearchText(e.target.value);
   };
 
+  const submitForm = (e) => {
+    e.preventDefault();
+    console.log("Button Clicked");
+  };
+
   return (
-    <nav className="navbar navbar-expand-lg bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
           Movie Browser
@@ -45,11 +49,11 @@ const Navbar = ({ searchText, setSearchText }) => {
                 tabIndex="-1"
                 aria-disabled="true"
               >
-                Disabled
+                Coming soon
               </Link>
             </li>
           </ul>
-          <form className="d-flex">
+          <form className="d-flex" onSubmit={submitForm}>
             <input
               className="form-control me-2"
               type="search"
