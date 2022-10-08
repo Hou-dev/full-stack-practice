@@ -11,3 +11,6 @@
 - Used JQuery to manipulate JS and fetch data from URL.
 - Worked with Readt.js to fetch url, get data, and display information on webpage.
 - React.js and using with Bootstrap, use routers to switch pages, made navbar, search bar, getting API keys, browser history, etc.
+- Learn about RESTful API, HTML GET, POST, DELETE, PUT and PATCH requests
+- HTTP Responses:
+  > 200 OK , 201 Created, 202 Accepted, 301 Moved Permanently, 302 Found, 400 Bad Request, 401 Unauthorized, 403 Forbidden, 404 Not Found, 405 Method Not Allowed, 500 Internal Server Error
