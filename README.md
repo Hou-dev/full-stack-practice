@@ -14,3 +14,5 @@
 - Learn about RESTful API, HTML GET, POST, DELETE, PUT and PATCH requests
 - HTTP Responses:
   > 200 OK , 201 Created, 202 Accepted, 301 Moved Permanently, 302 Found, 400 Bad Request, 401 Unauthorized, 403 Forbidden, 404 Not Found, 405 Method Not Allowed, 500 Internal Server Error
+
+![2021-01-30_19-37-49-ce951dee432c9429cebe675c37c3a6b7](https://user-images.githubusercontent.com/59487209/194719887-ef0f0f26-8b67-4a04-af19-edce03e6d457.png)
