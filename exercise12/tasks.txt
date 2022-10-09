@@ -1,0 +1,7 @@
+1. Create a new directory in your home directory
+2. Navigate to your new directory using CD
+3. Touch a new file called test.txt
+4. Edit file with nano
+5. Cat the file you just wrote
+6. Navigate out of the folder with cd ../
+7. Delete the entire directory with a file in it
